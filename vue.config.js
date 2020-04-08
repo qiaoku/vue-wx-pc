@@ -6,7 +6,7 @@ module.exports = {
         proxy: {
             '/qidian': {
                 target: 'http://101.37.116.134:3001',
-                // target: 'http://101.37.116.134:31',
+                // target: 'http://192.168.0.169:3001',
                 changeOrigin: true,
                 pathRewrite: {
                     '/qidian': ''
